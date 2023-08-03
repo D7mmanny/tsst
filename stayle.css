@@ -9,6 +9,111 @@ body{
     
 }
 @media only screen and (min-width: 0px) and (max-width: 600px){
+    nav{
+        padding-left: 5%;
+        border:2px solid rgb(82, 77, 77);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(119, 116, 116);
+        color: aliceblue;
+    
+    }
+    .nav-lis{
+        display: none;
+    }
+    .continar{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .ob1{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .ob1-item1{
+    height: 50%;
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .ob1-item2{
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+    }
+    .input1{
+        background-color: blue;
+        color: aliceblue;
+        width:300px;
+        height:100px ;
+        font-size: 50px;
+    }
+    .ob2{
+        height: 500px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(12,1fr);
+        grid-template-rows:repeat(12,1fr);
+    }
+
+    /* .s1{
+    background-color: blue;
+    grid-column:1/4 ;
+    grid-row:3/5 ;
+    }
+    .s2{
+    background-color: darkorchid;
+    grid-column:3/10;
+    grid-row:4/9 ;
+    }
+    .s3{
+        background-color: black;
+       
+        grid-column:8/11;
+        grid-row:6/11 ;
+    }
+    .s4{
+        background-color: blue;
+        grid-column:6/9;
+        grid-row:8/10 ;
+    } */
+
+    footer{
+        height: 15vh;
+        margin-top: 20px;
+    
+        background-color: black;
+        color: aliceblue;
+        list-style: none;
+        display: flex;
+        flex-direction:row;
+        justify-content: space-around;
+        justify-items: center;
+        align-items: center
+        
+    }
+    .footer-d1{
+        display: flex;
+        flex-direction:column;
+    
+    }
+    .footer-d2{
+    
+        display: flex;
+        flex-direction:column;
+    }
 
 
 }
@@ -27,6 +132,9 @@ nav{
     background-color: black;
     color: aliceblue;
 
+}
+#menu-tob{
+    display: none;
 }
 .nav-lis{
     width: 50%;
